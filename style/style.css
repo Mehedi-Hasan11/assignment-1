@@ -182,7 +182,7 @@
 }
 /* card-section */
 .news-sec{
-    
+
 }
 
 .news-card {
@@ -238,4 +238,127 @@
     transition: background-color 0.3s ease;
   }
   
-  
+
+
+  /* donate for bangladesh */
+  .donate-box{
+    background-color: ;
+    text-align: center;
+    align-items: center;
+  }
+  .donate-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .donate-des{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24;
+    margin: 0px, 24px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+.taka{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.tk1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24;
+    padding: 40px;
+    margin: 0px, 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.tk3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24;
+    padding: 40px;
+    margin: 0px, 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.tk4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24;
+    padding: 40px;
+    margin: 0px, 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.tk1:hover{
+    background-color: rgb(198, 228, 214);
+}
+.tk3:hover{
+    background-color: rgb(198, 228, 214);
+}
+.tk4:hover{
+    background-color: rgb(198, 228, 214);
+}
+.tk-colour{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24;
+    padding: 40px;
+    margin: 0px, 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+
+.d-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 17px 34px 17px 34px;
+    margin: 32px, 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+
+}
+
